@@ -1,0 +1,22 @@
+{
+  "name": "V4R",
+  "description": "deploy V4R to Heroku.",
+  "keywords": ["V4R"],
+  "env": {
+    "VER": {
+       "description": "输入v4ray Core 版本号（latest表示最新版本）",
+       "value": "3.10"
+     }, 
+    "UUID": {
+       "description": "Vmess协议默认UUID，请输入自己的UUID",
+       "value": "8fd6dadc-6d57-3ae7-94bb-e6b8a209c758"
+     },
+    "V2RAY_RAY_BUFFER_SIZE": {
+       "description": "每个连接的缓存大小，单位MB",
+       "value": "30"
+     }
+  },
+  "website": "https://github.com/wang2wei/website",
+  "repository": "https://github.com/wang2wei/website",
+  "stack": "container"
+ }
